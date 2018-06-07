@@ -1,0 +1,41 @@
+.el-message-box__headerbtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  &:hover {
+    background: transparent;
+  }
+}
+
+.el-form-item__label {
+  text-align: left;
+}
+
+.el-message {
+  border: none !important;
+}
+
+.el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus {
+  background-color: #edfafa;
+  color: #0bb0b5;
+}
+
+.el-dropdown-menu__item {
+  a, a:visited {
+    color: #606266;
+  }
+  a:hover {
+    color: #0bb0b5;
+  }
+}
+
+.el-breadcrumb__inner, .el-breadcrumb__inner a {
+  color: #777;
+}

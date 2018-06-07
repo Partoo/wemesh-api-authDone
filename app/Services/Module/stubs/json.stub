@@ -1,0 +1,19 @@
+{
+"name": "$STUDLY_NAME$",
+"alias": "$LOWER_NAME$",
+"description": "",
+"price":"0",
+"period": "年",
+"permission":"$STUDLY_NAME$_Permission"
+"keywords": [],
+"active": 1,
+"order": 0,
+"providers": [
+"$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Providers\\$STUDLY_NAME$ServiceProvider"
+],
+"aliases": {},
+"files": [
+"start.php"
+],
+"requires": []
+}
